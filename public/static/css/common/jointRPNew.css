@@ -1,0 +1,88 @@
+html,
+body,
+i,
+span,
+div,
+em,
+ul,
+li,
+a,
+img,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}/**
+ul,
+li,
+span,
+a,
+input,
+table,
+tr,
+th,
+td,
+em {
+  box-sizing: border-box;
+}
+i,
+em {
+  font-style: normal;
+}
+a {
+  display: inline-block;
+}
+a:hover {
+  text-decoration: none;
+}
+span {
+  display: inline-block;
+}
+/*
+.radio {
+  width: 15px;
+  height: 15px;
+  margin-right: 25px;
+  -webkit-appearance: radio;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  -webkit-appearance: checkbox;
+}
+*/
+
+.jointrp-section3 .jointrp-section3-right {
+  float: right;
+  width: 310px;
+  border: 1px solid #c3c3c3;
+  height: 750px;
+  padding: 14px;
+}
+ .jointrp-section3-right ul {
+  width: 274px;
+  height: 680px;
+  overflow-y: hidden;
+  margin: 0 auto;
+}
+ .jointrp-section3-right ul li {
+  margin-top: 15px;
+  width: 100%;
+}
+ .jointrp-section3-right ul li a {
+  width: 100%;
+}
+ .jointrp-section3-right ul li a img {
+  width: 100%;
+  height: 170px;
+}
+ .jointrp-section3-right ul li a p {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}

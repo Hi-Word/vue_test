@@ -1,0 +1,8 @@
+/* CSS Document */
+
+/*项目现场*/
+.xcsp ul{ margin-top:10px;}
+.xcsp ul li{line-height: 2em;}
+.xcsp ul li span{width: 85%;
+    display: block;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;box-sizing: initial;}
+.xcsp ul li span i{    margin-right: 5px;}

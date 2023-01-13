@@ -1,0 +1,13 @@
+document.writeln("<div   class=\'page\' >");
+document.writeln("			<ul>");
+document.writeln("				<li><a href=\'#\'>上一页</a></li>");
+document.writeln("				<li><a href=\'#\'>1</a></li>");
+document.writeln("				<li><a href=\'#\'>2</a></li>");
+document.writeln("				<li><a href=\'#\'>3</a></li>");
+document.writeln("				<li><a href=\'#\'>...</a></li>");
+document.writeln("");
+document.writeln("				<li><a href=\'#\'>下一页</a></li>");
+document.writeln("				<li><a href=\'#\'>共X条</a></li>");
+document.writeln("");
+document.writeln("			</ul>");
+document.writeln("		</div>");

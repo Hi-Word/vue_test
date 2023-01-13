@@ -1,0 +1,408 @@
+/**�ֳ���Ƶ**/
+
+.picture-set {
+    width: calc(100% * 1);
+    height: 655px;
+}
+
+.picture-set-con {
+    width: calc(100% - 30px);
+    height: 574px;
+    overflow: hidden;
+    position: relative;
+}
+
+.picture-set-con .hd {
+    height: 15px;
+    overflow: hidden;
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+    z-index: 1;
+}
+
+.picture-set-con .hd ul {
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+
+.picture-set-con .hd ul li {
+    float: left;
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+    line-height: 14px;
+    text-align: center;
+    background: #707070;
+    cursor: pointer;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+.picture-set-con .hd ul li.on {
+    background: #2aaef2;
+    color: #fff;
+}
+
+.picture-set-con .bd {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+}
+
+.picture-set-con .bd li {
+    zoom: 1;
+    vertical-align: middle;
+    position: relative;
+}
+
+.picture-set-con .bd img {
+    width: 100%;
+    height: 574px;
+    display: block;
+}
+
+.picture-set-con .bd li p {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.picture-set-con .bd li p span {
+    padding: 10px;
+    display: block;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* ������ǰ/��ť���룬�������Ҫɾ������ */
+
+.picture-set-con .prev,
+.picture-set-con .next {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -25px;
+    width: 32px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    display: none;
+    text-align: center
+}
+
+.picture-set-con:hover .prev,
+.picture-set-con:hover .next {
+    display: block;
+}
+
+.picture-set-con .prev i,
+.picture-set-con .next i {
+    font-size: 30px;
+}
+
+.picture-set-con .next {
+    left: auto;
+    right: 15px;
+    background-position: 8px 5px;
+}
+
+.picture-set-con .prevStop {
+    display: none;
+}
+
+.picture-set-con .nextStop {
+    display: none;
+}
+
+.video {
+    width: calc(100% * 0.405);
+    height: 655px;
+}
+
+.video ul {
+    height: 590px;
+}
+
+.picture-display {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.65);
+    overflow: hidden;
+}
+
+.picture-display .hd .left,
+.picture-display .hd .right {
+    top: 35%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 5px;
+}
+
+.picture-display .hd .left {
+    left: 0px;
+}
+
+.picture-display .hd .right {
+    right: 0px;
+}
+
+.picture-display .bd ul li {
+    margin: 0 8px;
+    float: left;
+    _display: inline;
+    overflow: hidden;
+    text-align: center;
+}
+
+.picture-display .bd ul li img {
+    width: 291px;
+    height: 163px;
+}
+
+.picture-display .bd ul li p {
+    position: absolute;
+    bottom: 0px;
+    width: 291px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.picture-display .bd ul li p span {
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.video-window .window_main,
+.video-window2 .window_main {
+    width: 667px;
+    margin-top: calc((100vh - 802px)/2);
+}
+
+.video-window .window_main .ov {
+    height: 704px;
+}
+
+.more-images .window_main {
+    width: 940px;
+    margin-top: calc((100vh - 808px)/2);
+}
+
+.more-images-con {
+    position: relative;
+    overflow: hidden;
+    width: 900px;
+}
+
+.more-images .bigImg {
+    height: 600px;
+    position: relative;
+}
+
+.more-images .bigImg li img {
+    vertical-align: middle;
+    width: 900px;
+    height: 600px;
+}
+
+.more-images .smallScroll {
+    height: 100px;
+    margin-bottom: 6px;
+}
+
+.more-images .sPrev,
+.more-images .sNext {
+    float: left;
+    display: block;
+    width: 25px;
+    height: 90px;
+    border-radius: 15px 0px 0px 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    line-height: 90px;
+}
+
+.more-images .sPrev i,
+.more-images .sNext i {
+    font-size: 28px;
+    line-height: 90px;
+}
+
+.more-images .sNext {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.more-images .smallImg {
+    float: left;
+    margin: 10px 6px 0px;
+    display: inline;
+    width: 838px;
+    overflow: hidden;
+    height: 100px;
+}
+
+.more-images .smallImg ul {
+    height: 100px;
+    width: 9999px;
+    overflow: hidden;
+}
+
+.more-images .smallImg li {
+    float: left;
+    padding: 0 5px 0 0;
+    width: 136px;
+    cursor: pointer;
+    display: inline;
+    text-align: center
+}
+
+.more-images .smallImg img {
+    width: 136px;
+    height: 90px;
+    opacity: 0.5;
+}
+
+.more-images .smallImg .on img {
+    opacity: 1;
+}
+
+.more-images-con .prev,
+.more-images-con .next {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 5px;
+}
+
+.more-images-con .prev i,
+.more-images-con .next i {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.more-images-con .next {
+    left: auto;
+    right: 20px;
+}
+
+.more-images .page {
+    position: absolute;
+    bottom: 130px;
+    right: 20px;
+    font-family: "Times New Roman", serif;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 24px;
+    padding: 10px 15px;
+}
+
+.more-images .pageState span {
+    color: #2aaef2;
+    font-size: 18px;
+}
+
+.more-images2 .window_main {
+    width: 940px;
+    margin-top: calc((100vh - 808px)/2);
+}
+
+.more-images2 .bigImg {
+    height: 600px;
+    position: relative;
+}
+
+.more-images2 .bigImg li img {
+    vertical-align: middle;
+    width: 900px;
+    height: 600px;
+}
+
+.more-images2 .smallScroll {
+    height: 100px;
+    margin-bottom: 6px;
+}
+
+.more-images2 .sPrev,
+.more-images2 .sNext {
+    float: left;
+    display: block;
+    width: 25px;
+    height: 90px;
+    border-radius: 15px 0px 0px 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    line-height: 90px;
+}
+
+.more-images2 .sPrev i,
+.more-images2 .sNext i {
+    font-size: 28px;
+    line-height: 90px;
+}
+
+.more-images2 .sNext {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.more-images2 .smallImg {
+    float: left;
+    margin: 10px 6px 0px;
+    display: inline;
+    width: 838px;
+    overflow: hidden;
+    height: 100px;
+}
+
+.more-images2 .smallImg ul {
+    height: 100px;
+    width: 9999px;
+    overflow: hidden;
+}
+
+.more-images2 .smallImg li {
+    float: left;
+    padding: 0 5px 0 0;
+    width: 136px;
+    cursor: pointer;
+    display: inline;
+    text-align: center
+}
+
+.more-images2 .smallImg img {
+    width: 136px;
+    height: 90px;
+    opacity: 0.5;
+}
+
+.more-images2 .smallImg .on img {
+    opacity: 1;
+}
+
+.more-images2 .page {
+    position: absolute;
+    bottom: 130px;
+    right: 20px;
+    font-family: "Times New Roman", serif;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 24px;
+    padding: 10px 15px;
+}
+
+.more-images2 .pageState span {
+    color: #2aaef2;
+    font-size: 18px;
+}

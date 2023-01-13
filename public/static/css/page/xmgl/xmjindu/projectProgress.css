@@ -1,0 +1,22 @@
+/**项目进度**/
+.project-progress-left{width:calc(100% * 0.23);}
+.project-progress-right{width:calc(100% * 0.76);}
+.overall-progress{height:839px;}
+.project-progress .key-progress{height:430px;overflow: hidden;}
+.project-progress .key-progress .ov{height:295px;}
+.project-progress .key-progress .ov table tr td{padding:19px 10px;}
+.normal-project{height:839px;}
+.normal-project .ov{height:650px;}
+.normal-project  .table01 tr td{border-left:1px dashed #2e5280;}
+
+.shutdown-lagged-project .hd li{float:left;margin-left:30px;padding:0px 30px;height:39px;line-height: 39px;background:#0a3568;cursor: pointer;}
+.shutdown-lagged-project .hd li.on{background:#002a71;border:1px solid #135276;}
+
+.more-enclosure .window_main{width:1000px;margin-top:calc((100vh - 598px)/2);}
+.more-enclosure .window_main .ov{height:510px;}
+
+.project-replicator-window .window_main{width:600px;margin-top:calc((100vh - 498px)/2);}
+.project-replicator-window .window_main .ov{height:410px;}
+.project-replicator-window .head-portrait{margin-top:30px;}
+.project-replicator-window .head-portrait img{border-radius:100px;margin-bottom:20px;}
+.project-replicator-window  p{line-height:1.5em;margin-top:10px;}

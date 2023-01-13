@@ -1,0 +1,79 @@
+/**项目预警**/
+.bt01{float:right;background:#1bbae1;height:38px;border:0px;color:#fff;padding:0px 10px;margin: 0px 5px;text-align:center;line-height:38px;cursor:pointer;}
+.project-early-warning table tr th,.project-early-warning table tr td{padding:9px 10px;}
+.early-warning-statistics{height:45px;}
+.early-warning-statistics-number{font-size:36px;width:998px;}
+.early-warning-statistics-number span{display: inline-block;width:33%;color:#0097ff;}
+.early-warning-statistics-number span.color01{color:#f54e4e;}
+.early-warning-statistics-number span.color02{color:#fea905;}
+.early-warning-statistics-number i{font-size:30px;margin-right: 5px;}
+.early-warning-statistics-chart{width:100px;height:45px;}
+.be-overdue .ov{height:520px;}
+.high-early-warning .ov,.low-early-warning .ov{height:127px;}
+
+/* .before-physical-examination{height:calc(100vh - 220px);} */
+.before-physical-examination-con{margin:0px auto;}
+.project-early-warning .con .icon{position:relative;width:109px;height:109px;margin-right: 20px;}
+.project-early-warning .con .icon .icon-bg{background:url(/xmzhgl_xzb/images/project-early-warning-border.png) no-repeat;display: inherit;width: 110px;height: 110px;background-size: 100%;}
+.project-early-warning .con .icon .icon-animate{animation:rotary 1s infinite; -webkit-animation:rotary 1s infinite;}
+.project-early-warning .con .icon .icon-img{display:inline-block;width:64px;height:64px;background:#2aaef2;border-radius:100%;padding:15px;text-align: center;position:absolute;top:8px;left:8px;}
+.project-early-warning .physical-examination-top-con .icon{width:93px;height:93px;background-size: 100%;}
+.project-early-warning .physical-examination-top-con .icon .icon-bg{width:93px;height:93px;background-size: 100%;}
+.project-early-warning .physical-examination-top-con .icon .icon-img{width:63px;height:63px;padding:10px;top:5px;left:5px;}
+.project-early-warning .physical-examination-top-con .icon .icon-img img{width:100%;height:100%;}
+@keyframes rotary
+{
+	0% {
+		transform:rotate(0deg);
+	 }
+	25% {
+		transform:rotate(90deg);
+	}
+	50% {
+		transform:rotate(180deg);
+	}
+	 75% {
+		transform:rotate(270deg);
+	 }
+	100% {
+		transform:rotate(360deg);
+	}
+			  
+}
+.project-early-warning .con .txt h1{font-size:22px;font-weight: bold;padding-top:20px;}
+.project-early-warning .con .txt p{font-size:20px;margin-top:20px;}
+.project-early-warning .con .txt p i{color:#ff0000;}
+.project-early-warning .physical-examination .txt h1{padding-top:0px;padding-top:10px;}
+.project-early-warning .physical-examination .txt p{font-size:18px;margin-top:10px;}
+.before-physical-examination-con .text-button{background:#2aaef2;font-size:22px;border-radius: 20px;border:0px;color:#fff;padding:10px 40px;cursor: pointer;    position: absolute;
+	right: 30px;
+	/* top: 210px; */}
+.physical-examination-top{padding:10px;position: relative;}
+.physical-examination-top .text-button{position: absolute;right:190px;top:32px;background:#2aaef2;font-size:22px;border-radius: 20px;border:0px;color:#fff;padding:10px 40px;cursor: pointer;}
+.button{position: absolute;right:20px;top:30px;cursor: pointer;border:1px solid #2aaef2;border-radius: 10px;width: 160px;height: 54px;background:none;color:#fff;font-size:24px;}
+.progress-bar{height:3px;background:#2aaef2;position: absolute;bottom:0px;left:0px;animation: loader 5s linear;}
+
+.xmyjSelect{
+	width: 416px;
+	margin-top: 13px;
+	margin-right: 14px;
+}
+.xmyjSelect select{
+	background: none;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	color: #fff;
+	display: inline-block;
+	font-size: inherit;
+	height: 45px;
+	line-height: 45px;
+	outline: none;
+	padding: 0 15px;
+	transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+	width: 45%;
+	float: left;
+	margin-left: 15px;
+}
+.xmyjSelect select option{
+	color: #000;
+}

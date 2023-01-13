@@ -1,0 +1,10 @@
+.messageList_content {
+    width:100%;
+    border: 1px solid rgba(255,255,255,0.65);
+    box-shadow: 0px 0px 8px rgba(255,255,255,0.65);
+}
+.messageList_content .title02 {
+    position: relative;
+    padding: 13px;
+        font-size: 24px;
+}

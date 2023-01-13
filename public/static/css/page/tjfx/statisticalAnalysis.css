@@ -1,0 +1,19 @@
+/**Í³¼Æ·ÖÎö**/
+.contrast-of-investment{width:calc(100% * 0.685);height:425px;}
+.contrast-of-investment .con{position:relative;}
+.contrast-of-investment .con .hd{position:absolute;right:250px;top:-40px;}
+.contrast-of-investment .con .hd li{display:inline-block;background:#033895;font-size:24px;color: #fff;padding:10px 20px;border-radius: 5px;margin-right: 10px;cursor: pointer;}
+.contrast-of-investment .con .hd li.on{background:#0057ee;}
+.contrast-of-investment .con .bd > div{height:352px;}
+.analysis{position:absolute;right:0px;top:-40px;display:inline-block;background:#033895;font-size:24px;color: #fff;padding:10px 20px;border-radius: 5px;margin-right: 10px;cursor: pointer;}
+.statistical-analysis-right{width:1175px;}
+.category-comparison{height:425px;width:calc(100% * 0.545);;}
+.output-value{width:calc(100% * 0.3);height:420px;}
+.output-value h1{margin-top:80px;}
+.output-value h1 strong{font-size:60px;font-weight: bold;}
+.output-value p{font-size:24px;margin-top:20px;}
+.stage-statistics,.investment-scale{width:calc(100% * 0.215);height:425px;}
+
+.analysis-window .window_main{width:1100px;margin-top:calc((100vh - 798px)/2);}
+.analysis-window .window_main .ov{height:610px;}
+.analysis-window .window_main .ov .table01 tr td{border-left:1px dashed #2e5280}

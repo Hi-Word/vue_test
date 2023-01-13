@@ -1,0 +1,91 @@
+/**招商融资**/
+.add-condition{position: absolute;bottom:10px;left:220px;}
+.add-condition a{border:1px solid #0751d2;padding:10px 25px 10px 10px;position: relative;margin-right: 10px;display: inline-block;}
+.add-condition a i{font-size:12px;position: absolute;right:5px;top:5px;background:#2190cd;padding:2px 4px;}
+.investment-financing .hd{font-size:22px;height: 60px;position: relative;}
+.investment-financing .hd li{float:left;line-height: 60px;padding:0px 40px;}
+.investment-financing .hd li.on{background:#2190cd;}
+.investment-financing-top-con .con{border-bottom:1px dashed #2e5280;position:relative;padding:5px 10px 15px;margin-bottom:10px;}
+.investment-financing-top-con .title01{float: left;}
+.investment-financing-top-con .con ul li{float:left;padding-right:60px;}
+.investment-financing-top .search{width:609px;}
+.investment-financing-left{width:calc(100% * 0.775);height:456px;}
+.investment-financing-left-hd{position: relative;}
+.investment-financing-left-hd li{float:left;font-size: 18px;height: 50px;line-height: 50px;padding:0px 20px;}
+.investment-financing-left-hd li i{margin-left: 5px;font-size:20px;}
+.investment-financing-left-hd li.on{background:#002d66;}
+.investment-financing-left-bd{padding:15px;height:371px;}
+.investment-financing-left-bd > div{display: none;}
+.investment-financing-left .statistics{position: absolute;right:20px;top: 20px;}
+.investment-financing-left .statistics strong{color:#f00;font-weight: bold;margin:0px 10px;}
+.investment-financing-left-bd li{margin:5px 0px;border-bottom:1px dashed #2e5280;padding:15px 0px 5px;}
+.investment-financing-left-bd h1{font-size:26px;margin-bottom:20px;}
+.investment-financing-left-bd h1 span{float: right;font-size:16px;padding:10px 0px;}
+.investment-financing-left-bd table{width: 100%;}
+.investment-financing-left-bd tr td{padding:5px 0px;}
+.investment-financing-left-bd tr td strong{font-weight: bold;}
+.investment-financing-left-bd tr td strong.font{font-size: 24px;}
+.investment-financing-left-bd tr td .interview{border:0px;height:41px;font-size:18px;color:#fff;background:linear-gradient(#7255bd, #00bffc);vertical-align: middle;line-height: 41px;padding:0px 20px;border-radius:3px;cursor: pointer}
+.investment-financing-right{width:calc(100% * 0.19);height:485px;}
+.investment-financing-right ul{padding:20px 15px 0px;text-align:center;height:424px;}
+.investment-financing-right ul li{position: relative;margin-bottom:20px;}
+.investment-financing-right ul li:last-child(){margin-bottom:0px;}
+.investment-financing-right ul li img{width:100%;height:180px;}
+.investment-financing-right ul li p{position:absolute;bottom:0px;left:0px;background:rgba(0,0,0,0.6);width:100%;text-align:center;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;padding:10px 0px;}
+
+.successful-cases-window .window_main{width:1026px;margin-top:calc((100vh - 400px)/2);}
+.successful-cases-window .window_main .ov{height:312px;}
+.successful-cases-window-left{width:379px;height:310px;position: relative;}
+.successful-cases-window-left img{width:379px;height:310px;}
+.successful-cases-window-left span{position:absolute;top:20px;left: 20px;border-radius: 10px;background:rgba(0,0,0,0.6);padding:10px 15px;display: inline-block;}
+.successful-cases-window-right{width:580px;}
+.successful-cases-window-right h1{font-size:24px;margin: 20px 0px;}
+.successful-cases-window-right h1 span{float:right;font-size:16px;}
+.successful-cases-window-right h1 span i{margin-right:5px;}
+.successful-cases-window-right p{line-height:26px;text-align:justify;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 4;overflow: hidden;}
+.successful-cases-window-right .column span{display:block;width:50%;margin:10px 0px;}
+.successful-cases-window-right .column span i{margin-right:10px;background:#ef7d03;height:21px;width:21px;border-radius: 50%;display: inline-block;text-align: center;line-height: 21px;font-size:14px;}
+.successful-cases-window-right .column span i.bg01{background:#03ef46;}
+.successful-cases-window-right .column span i.bg02{background:#9903ef;}
+.successful-cases-window-right .column span i.bg03{background:#ef03cb;}
+.successful-cases-window-right .column span i.bg04{background:#03d0ef;}
+.successful-cases-window-right .column span i.bg05{background:#038def;}
+
+.investment-financing-project-details .window_main{width:1295px;margin-top:calc((100vh - 846px)/2);}
+.investment-financing-project-details .window_main .ov{height:748px;}
+.investment-financing-project-details-left{width:calc(100% - 380px);}
+.essential-information{min-height:194px;}
+.essential-information h1{font-size: 24px;color:#08b8f8;}
+.essential-information p span em,.essential-information p span a{margin-right: 20px;}
+.essential-information p span a i{margin-right: 5px;}
+.essential-information .column{margin-top:30px;}
+.essential-information .column span{display:inline-block;width:50%;margin:10px 0px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.essential-information .column span i{margin-right:10px;background:#ef7d03;height:21px;width:21px;border-radius: 50%;display: inline-block;text-align: center;line-height: 21px;font-size:14px;}
+.essential-information .column span i.bg01{background:#03ef46;}
+.essential-information .column span i.bg02{background:#9903ef;}
+.essential-information .column span i.bg03{background:#ef03cb;}
+.essential-information .column span i.bg04{background:#03d0ef;}
+.essential-information .column span i.bg05{background:#038def;}
+.project-content{height:494px;}
+.financing-project-details .project-content{height:426px;}
+.project-content p{line-height:28px;text-indent:2em;text-align:justify;}
+.investment-financing-project-details-right{width:360px;}
+.investment-financing-project-details-right .interview{background:url(/xmzhgl_xzb/images/interview-bg.png) no-repeat;height:174px;color:#001f55;padding:60px 30px 0px;width:300px;}
+.investment-financing-project-details-right .interview h1{font-size:20px;font-weight:bold;}
+.investment-financing-project-details-right .interview p{line-height:1.5em;margin-top:20px;}
+.investment-financing-project-details-right .interview p button{ border:0px;border-radius: 3px;width: 126px;height: 45px;background:#fff;font-size:18px;font-weight:bold;cursor:pointer;}
+.contact-information{height:494px;}
+.contact-information .con .head-portrait img{border-radius:100px;margin-bottom:20px;}
+.contact-information .con p{line-height:2em;}
+
+
+.management-wen .ov{height: 365px;}
+.management-menu ul li a {display: block;padding: 20px;font-size: 22px;}
+.management-menu ul li{background: #002a71;margin-bottom: 20px;}
+.management-menu ul li{background: #002a71;margin-bottom: 20px;}
+.management-menu .on {background: #2190cd;}
+.managment-center{width: calc(100% * 0.78);}
+.project-managment-center{width: calc(100% * 0.73);}
+.project-details-right{width:calc(100% * 0.256);}
+.management-wen{line-height: 36px;height: 427px;}
+.project-details-left{width:calc(100% * 0.224);height:825px;}

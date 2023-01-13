@@ -1,0 +1,936 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+/* remember to define focus styles! */
+
+:focus {
+    outline: 0;
+    /*:focus 选择器用于选取获得焦点的元素。*/
+}
+
+body {
+    line-height: 1;
+    font-family: "FZYouHK_512B", "微软雅黑", "宋体";
+    font-size: 16px;
+    background: url(/xmzhgl_xzb/images/bg.jpg) top center fixed;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+    border-collapse: separate;
+    /*border-collapse 属性设置表格的边框是否被合并为一个单一的边框，还是象在标准的 HTML 中那样分开显示*/
+    border-spacing: 0;
+    /*border-spacing 属性设置相邻单元格的边框间的距离*/
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    /*:after 选择器在被选元素的内容后面插入内容。:before选择器在被选元素的内容前面插入内容*/
+    content: "";
+    /*插入内容*/
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* self-clear floats - if you need them, this is my (current) favourite technique. More info: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+
+/* For modern browsers */
+
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+/* For IE 6/7 (trigger hasLayout) */
+
+.cf {
+    clear: both;
+    zoom: 1;
+}
+
+
+/* wrap url's */
+
+pre {
+    white-space: pre;
+    /* CSS 2.0 规定段落中的文本不进行换行*/
+    white-space: pre-wrap;
+    /* CSS 2.1 */
+    white-space: pre-line;
+    /* CSS 3.0 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla */
+    white-space: -hp-pre-wrap;
+    /* HP Printers */
+    word-wrap: break-word;
+    /* IE 5+ */
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+.h10 {
+    height: 10px;
+}
+
+.h20 {
+    height: 20px;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.ml {
+    margin-left: calc(100% * 0.01);
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.left,
+.right {
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.search ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #fff;
+    font-size: 16px;
+}
+
+.search ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #fff;
+    font-size: 16px;
+}
+
+.search :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/**分页**/
+
+.page {
+    height: 30px;
+    margin-right: 30px
+}
+
+.page ul {
+    float: right
+}
+
+.page li {
+    float: left;
+    margin: 5px;
+    border: 1px solid #4989c6;
+}
+
+.page li a {
+    padding: 5px;
+    display: block;
+    _display: inline-block;
+}
+
+
+/**登录页**/
+
+.login {
+    background: url(/xmzhgl_xzb/images/login-bg.png) no-repeat;
+}
+
+.login-logo {
+    margin: 30px 0px 0px 60px;
+}
+
+.login-box {
+    margin: 60px auto 0px;
+    width: 430px;
+    height: 446px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 260px;
+}
+
+.login-box h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.login-con .hd ul li {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    width: 49%;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+.login-con .hd ul li.on {
+    border: 2px solid #fff;
+    border-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 43px;
+}
+
+.login-con .bd ul li {
+    position: relative;
+    margin-top: 20px;
+}
+
+.login-con .bd ul li i {
+    background: #262c32;
+    height: 63px;
+    line-height: 63px;
+    text-align: center;
+    display: inline-block;
+    width: 75px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 48px;
+}
+
+.login-con .bd input[type=text] {
+    background: #fff;
+    width: 288px;
+    height: 61px;
+    margin-left: 75px;
+    border: 0px;
+    font-size: 22px;
+    padding: 0px 30px;
+}
+
+.login-con .bd input[type=password] {
+    background: #fff;
+    width: 288px;
+    height: 61px;
+    margin-left: 75px;
+    border: 0px;
+    font-size: 22px;
+    padding: 0px 30px;
+}
+
+.login-con .bd button {
+    border: 2px solid #29333a;
+    border-radius: 10px;
+    width: 100%;
+    background: #0b3a79;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+
+/**注册页**/
+
+.register {
+    text-align: right;
+    width: 400px;
+}
+
+.register p {
+    margin: 10px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.register input {
+    margin-left: 10px
+}
+
+.register button {
+    border: 2px solid #29333a;
+    border-radius: 10px;
+    width: 100%;
+    background: #0b3a79;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.warrper {
+    min-width: 1400px;
+}
+
+.header {
+    position: relative;
+    height: 84px;
+}
+
+.header span {
+    display: inline-block;
+}
+
+.header .left {
+    left: 70px;
+    top: 20px;
+}
+
+.header .left em {
+    margin: 4px 0px 0px 5px;
+    display: inline-block;
+}
+
+.header .left .time {
+    font-size: 42px;
+    float: left;
+}
+
+.logo {
+    background: url(/xmzhgl_xzb/images/logo-bg.png) no-repeat;
+    width: 462px;
+    height:75px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px auto;
+}
+
+.header .right {
+    right: 10px;
+    top: 20px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.header .right i {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.header .right a {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.nav {
+    width: 70%;
+    margin: 0px auto;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    z-index: 100;
+}
+
+.nav a {
+    color: #fff;
+    display: block;
+}
+
+.nav .nLi {
+    float: left;
+    position: relative;
+    display: inline;
+    width: 12.5%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.nav .nLi h3 a {
+    margin: 0px 15px;
+    background: #021544;
+}
+
+.nav .sub {
+    display: none;
+    left: 0px;
+    top: 50px;
+    position: absolute;
+    line-height: 50px;
+    font-size: 20px;
+    width: 100%;
+    z-index: 1001;
+}
+
+.nav .sub li {
+    z-index: 1001;
+    border-bottom: 1px solid #135276;
+    background: rgba(10, 53, 104, 0.9);
+    margin: 0px 15px;
+}
+
+.nav .sub a {
+    display: block;
+    padding: 0 10px;
+}
+
+.nav .sub a:hover {
+    color: #2aaef2;
+}
+
+.nav li:hover h3 a,
+.nav .hover h3 a {
+    background-color: rgb(2, 21, 68);
+    box-shadow: 0px 3px 0px 0px rgba(10, 26, 78, 0.004), inset 0px -1px 5px 0px rgba(13, 169, 249, 0.97);
+    color: #2aaef2;
+}
+
+.xiaoxi1 {
+    font-size: 11px;
+    left: -17px;
+    top: -9px;
+    position: relative;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: #f20c55;
+    vertical-align: top;
+}
+
+.xiaoxi {
+    font-size: 11px;
+    left: -17px;
+    top: -9px;
+    position: relative;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: #f20c55;
+    vertical-align: top;
+    animation: xiaoxi_x .3s infinite alternate-reverse;
+}
+
+.xiaoxi_r {
+    display: block !important;
+    color: #FFFFFF;
+    height: 20px;
+    line-height: 20px;
+    text-align: center
+}
+
+
+/**消息列表**/
+
+.xxhz {
+    margin-bottom: 20px;
+}
+
+.xxhz_button {
+    cursor: pointer;
+    border: 1px solid #2aaef2;
+    border-radius: 10px;
+    width: 92px;
+    height: 38px;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+@keyframes xiaoxi_x {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.main {
+    padding: 0px calc(100% * 0.01);
+}
+
+.box {
+    border-radius: 20px 0px 0px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.65);
+}
+
+.box02 {
+    background: rgba(0, 31, 85, 0.8);
+}
+
+.box03 {
+    background: #002d66;
+}
+
+.title {
+    padding-top: 15px;
+    position: relative;
+}
+
+a.enlarge {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    display: inline-block;
+}
+
+a.enlarge i {
+    margin-right: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title span em {
+    display: inline-block;
+    background: #0a3568;
+    border: 1px solid #135276;
+    padding: 0px 20px;
+    border-right: 0px;
+    height: 29px;
+    line-height: 29px;
+}
+
+.title span em.p0 {
+    padding: 0px;
+}
+
+.title span {
+    display: inline-block;
+    background: url(/xmzhgl_xzb/images/title-arrow.png) no-repeat top right;
+    padding-right: 45px;
+}
+
+.table01 {
+    width: 100%;
+    table-layout: fixed;
+    border-top: 1px dashed #2e5280;
+    border-right: 1px dashed #2e5280;
+}
+
+.table01 tr th,
+.table01 tr td {
+    padding: 15px 10px;
+    border-bottom: 1px dashed #2e5280;
+    border-left: 1px dashed #2e5280;
+    line-height: 1.8em;
+    vertical-align: middle;
+}
+
+.table01 th {
+    font-size: 18px;
+}
+
+.ov {
+    overflow: auto;
+}
+
+.window .ov {
+    background: none;
+    overflow: auto;
+}
+
+.search {
+    position: relative;
+    width: 665px;
+}
+
+.search .txt {
+    width: 502px;
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.search .bt {
+    border: 0px;
+    height: 47px;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(#7255bd, #00bffc);
+    vertical-align: middle;
+    line-height: 47px;
+    padding: 0px 20px;
+    position: absolute;
+    right: 20px;
+    top: -1px;
+    cursor: pointer
+}
+
+.search .bt i {
+    vertical-align: middle;
+    font-size: 26px;
+}
+
+.list li {
+    border-bottom: 1px dashed #2e5280;
+    padding: 23px 0px;
+}
+
+.list li span {
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list li span i {
+    margin-right: 5px;
+}
+
+.list li i.iconfont {
+    float: right;
+    font-size: 24px;
+}
+
+
+/**弹出框**/
+
+.window {
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    _position: absolute;
+    display: none;
+}
+
+.window_bg {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+    background: #fff;
+    filter: alpha(opacity=45);
+    -moz-opacity: 0.45;
+    -khtml-opacity: 0.45;
+    opacity: 0.45;
+}
+
+.window_main {
+    background: #001f55;
+    margin: 0px auto;
+    z-index: 10;
+    position: relative;
+    border-radius: 10px;
+}
+
+.window_main .window-title {
+    background: #0a3568;
+    padding: 20px;
+    font-size: 18px;
+    vertical-align: middle;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.window_main .window-title i {
+    font-size: 28px;
+    vertical-align: middle;
+}
+
+
+/**弹出框**/
+
+.window_main_top {
+    background: #1bbae1;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0px 10px;
+    position: relative;
+}
+
+.close {
+    background: url(/xmzhgl_xzb/images/close_bt.png) 0px 25px;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.window_main_con {
+    padding: 20px;
+}
+
+.window_main_con tr td {
+    padding: 10px 0px;
+}
+
+.text01 {
+    border: 1px solid #c9d3d3;
+    width: 95%;
+    line-height: 30px;
+    padding: 0px 2%;
+}
+
+.food-show table,
+.repairs-show table,
+.feedback-show table {
+    background: #dbe4ea;
+}
+
+.food-show table tr td,
+.repairs-show table tr td,
+.feedback-show table tr td {
+    background: #fff;
+    padding: 10px 5px;
+}
+
+.feedback-opinion .window_main {
+    width: 835px;
+    margin-top: calc((100vh - 738px)/2);
+}
+
+.feedback-opinion .window_main .ov {
+    height: 600px;
+    background: #fff;
+    text-align: center;
+}
+
+.tzwcdfxyd-window .window_main,
+.tzwcdfxjd-window .window_main,
+.tzwcdfxnd-window .window_main,
+.cz-window .window_main,
+.cz-window1 .window_main,
+.jdxmtj-window .window_main,
+.tzgm-window .window_main,
+.yqcylbzb-window .window_main {
+    width: 900px;
+    margin-top: calc((100vh - 720px)/2);
+}
+
+.tzwcdfxyd-window .window_main .ov,
+.tzwcdfxjd-window .window_main .ov,
+.tzwcdfxnd-window .window_main .ov,
+.cz-window .window_main .ov,
+.cz-window1 .window_main .ov,
+.jdxmtj-window .window_main .ov,
+.tzgm-window .window_main .ov,
+.yqcylbzb-window .window_main .ov {
+    height: 610px;
+}
+
+
+/**文章页**/
+
+.article-con {
+    padding: 40px;
+}
+
+.article-header {
+    text-align: center;
+    line-height: 2em;
+    border-bottom: 1px solid #135276;
+}
+
+.article-header h1 {
+    font-size: 32px;
+    color: #2aaef2;
+    font-weight: bold;
+}
+
+.article-body {
+    padding-top: 40px;
+    line-height: 1.8em;
+}
+
+.article-body p {
+    text-indent: 2em;
+}
+
+@media screen and (max-height: 905px){
+	.project-overview ul{min-height:565px;}
+	.project-overview ul li a{padding:15px;}
+	.project-overview ul li a h1{margin-top:10px;}
+	.project-overview ul li a img{height:calc(100vh * 0.172);}
+	.engineering-profile .ov{height:230px;}
+	.management-wen .ov{height:190px}
+	.management-wen{height:255px}
+	.project-details-left{height:650px;}
+	.project-details-menu h3{font-size:18px;}
+	.project-details-menu ul li{font-size:16px;}
+	.project-introduction .con{height:159px;}
+	.scene-pictures{height:283px;}
+	.scene-pictures-con .slides img{height:189px;}
+	.contrast-of-investment .con .bd > div{height:262px;}
+	.contrast-of-investment,.output-value,.category-comparison,.stage-statistics,.investment-scale{height:335px;}
+	.overall-progress{height:320px;}
+	.project-progress .key-progress{height:350px;}	
+	.normal-project{height:691px;}
+	.normal-project .ov{height:467px;}
+	.be-overdue .ov{height:285px;}
+	.high-early-warning .ov, .low-early-warning .ov{height:50px;}
+	.enclosure-list{width:38%;}
+	.investment-financing-left{height:271px;}
+	.investment-financing-left-bd{height:191px;}
+	.investment-financing-right{height:301px;}
+	.investment-financing-project-details .window_main{margin-top: 0 !important}
+	.policy-document-left{height:619px;}
+	.policy-document-right .ov{height:475px;}
+	.investment-financing-right ul li img{height:90px;}
+	.investment-financing-right ul{height:260px;}
+	.picture-display .bd ul li img{height:113px;}
+	.video,.picture-set{height:520px;}
+	.video ul{height:420px;}
+	.picture-set-con,.picture-set-con .bd img{height:428px;}
+	.survey{height:235px;}
+	.survey ul li{margin:5px 0px;}
+	.speed-progress,.early-warning,.approval,.declare{height:195px;}
+	.design-sketch{height:635px;}
+	.design-sketch-con{height:540px;}
+	.key-progress, .top5{height:215px;}
+	.key-progress-con .table01 tr th,.key-progress-con .table01 tr td{padding:0px 10px;}
+	.key-progress-con .bd li{padding:10px 0px;}
+	.key-projects{height:220px;}
+	.key-projects-con{height:100px;}
+	/* .key-projects-con .bd ul li img{height:100px;} */
+	/* .key-projects-con .bd ul li p{height:6.5em;} */
+	.investment-financing-con .bd h1{font-size:20px;margin:0px 0px 10px;}
+	.investment-financing-con .bd p{line-height:1.2em;}
+	.investment-financing-con .bd .column span i{height:15px;width:15px;}
+	.investment-financing-con .bd .column span{margin:5px 0px;}
+	.investment-financing-con{height:111px;}
+}
+
+
+/* 查询条件选中时的样式*/
+
+.checkCon {
+    color: darkturquoise;
+}

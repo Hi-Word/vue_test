@@ -1,0 +1,10 @@
+/**项目规划**/
+.project-plan-con{width:calc(100% * 0.785);border:1px solid rgba(255,255,255,0.65);box-shadow: 0px 0px 8px rgba(255,255,255,0.65);}
+.project-plan-con .title02 span{font-size:24px;}
+.project-plan-con .title02{position:relative;padding:20px;}
+.project-plan-con .ov{height: 650px}
+.project-plan a.more{color:#2aaef2;}
+.project-plan .table01 tr td{border-left:1px dashed #2e5280;}
+
+.more-enclosure .window_main{width:1000px;margin-top:calc((100vh - 598px)/2);}
+.more-enclosure .window_main .ov{height:510px;}

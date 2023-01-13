@@ -1,0 +1,37 @@
+/* 资金申报页面公用css */
+
+/* 表格(上下滚动条) */
+.tab-hd {font-size: 22px;height: 60px;position: relative;}
+
+.tab-hd li {float: left;line-height: 60px;padding: 0px 40px;}
+
+.tab-hd li.on {background: #2190cd;}
+
+.table-wrap {background-color: #001f55;}
+
+.table01 {border-top: 1px solid #2e5280;border-right: 1px solid #2e5280;}
+
+.table01 tr th,
+.table01 tr td {border-bottom: 1px solid #2e5280;border-left: 1px solid #2e5280;text-align: center;padding: 10px 5px;}
+
+.table01 th {font-size: 16px;}
+
+.table-name {font-size: 20px;border: 1px solid #2e5280;border-bottom: none;text-align: center;height: 60px;line-height: 60px;}
+
+.tbody {height: 70vh;overflow-y: hidden;padding-bottom: 5px;}
+
+/**政策文件**/
+.policy-document-left{width:319px;height:790px;}
+.policy-document-left ul{padding:0px 15px 15px;}
+.policy-document-left ul li{background:#002a71;font-size:22px;color:#fff;padding:15px;margin-top:15px;cursor: pointer;}
+.policy-document-left ul li a{display: inline-block;}
+.policy-document-left ul li.on{background:#2190cd;}
+.policy-document-right{width:calc(100% - 339px);height: 790px;border:1px solid rgba(255,255,255,0.65);box-shadow: 0px 0px 8px rgba(255,255,255,0.65);background: rgba(0, 31, 85, 0.8);}
+.policy-document-right .ov{height:648px;}
+.policy-document-right .title02 span{font-size:24px;}
+.policy-document-right .title02{position:relative;padding:17px 20px 18px;}
+.policy-document-right .con{margin:20px;}
+
+.article-body {padding-top: 10px;}
+.policy-document-right .article-con {margin:0;padding: 20px;}
+.wrapper {padding: 0 20px;}

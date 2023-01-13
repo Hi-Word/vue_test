@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.xmlb a p{display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;}
+/*项目总览*/
+.xmlb {}
+.xmlb img{ width:100%; height:150px;}
+.xmlb h3{font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: normal;}
+.xmlb p{display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;}
+    

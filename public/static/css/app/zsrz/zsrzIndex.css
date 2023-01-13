@@ -1,0 +1,24 @@
+/* CSS Document */
+
+/*项目招商*/
+.pro_invest_list_info{line-height: 2em;}
+.pro_invest_list_info span em{ color:#F00; margin:0px 2px;}
+.pro_invest_list_info a{display: block;
+    text-align: center;
+    background: #2190cd;
+    width: 20%;
+    border-radius: 5px;
+    float:right;}
+.pro_invest_list .title{ text-align:center; font-size:16px;    margin-bottom: 10px;}
+.pro_invest_list table{width:100%;line-height:2em;}
+.pro_invest_list table .name{ width:22%; text-align:right;}
+.pro_invest_list table .value{width:28%;}
+.pro_invest_list > a{    display: block;
+    text-align: center;
+    background: #2190cd;
+    width: 100%;
+    border-radius: 5px;
+    line-height: 2em;
+    margin-top: 5px;}
+.pro_invest_list table td,.pro_invest_list table th{    border: 1px dashed #2e5280;}
+.pro_invest_list table th{ background:rgba(82, 129, 199, 0.38);    font-weight: normal;}

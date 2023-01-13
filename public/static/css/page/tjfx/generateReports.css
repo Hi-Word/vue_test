@@ -1,0 +1,11 @@
+/**生成报表**/
+.generate-reports .con ul li .fright{border:1px solid #2aaef2;padding:8px 30px;border-radius: 5px;color:#2aaef2;}
+.generate-reports .search{width:751px;}
+.generate-reports .condition{position: absolute;left:0px;top:0px;z-index: 99;}
+.generate-reports .condition:hover{cursor: pointer;}
+.generate-reports .condition dt{width:354px;height: 43px;line-height: 43px;border:1px solid #fff;padding:0px 15px;color:#fff;position: relative;}
+.generate-reports .condition dt a{color:#fff;}
+.generate-reports .condition dt i{position: absolute;top:20px;right:15px;width: 0;height: 0;border-width: 4px;border-style: solid;border-color: #fff transparent transparent transparent;}
+.generate-reports .condition dd{background:#fff;position: absolute;left:0px;top:43px;display: none;width: 100%;z-index: 99;}
+.generate-reports .condition dd a{display:block;padding:15px;color:#000;} 
+.search .time-txt{width:200px;position: absolute;right:150px;height:45px;top:0px;}

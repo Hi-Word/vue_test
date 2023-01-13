@@ -1,0 +1,724 @@
+/**��ҳ**/
+
+.message-reminder {
+    position: relative;
+}
+
+.message-reminder .left {
+    left: 15px;
+    top: 10px;
+}
+
+.message-reminder .left span {
+    font-size: 32px;
+    color: #deff00;
+}
+
+.message-reminder .bd {
+    padding: 0px 10px;
+    margin-left: 50px;
+}
+
+.message-reminder .bd .tempWrap {
+    width: 100% !important;
+}
+
+
+/* �� !important����SuperSlide�Զ����ɵĿ�ȣ������Ϳ����ֶ����ƿ��ӿ�ȡ� */
+
+.message-reminder .bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.message-reminder .bd ul li {
+    margin-right: 20px;
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    text-align: left;
+    _display: inline;
+    width: auto !important;
+}
+
+
+/* �� width:auto !important ����SuperSlide�Զ����ɵĿ�ȣ�������ֲ��ν����� */
+
+.message-reminder .bd ul li span {
+    margin-right: 5px;
+}
+
+.index-left {
+    width: calc(100% * 0.31);
+}
+
+.survey {
+    height: 227px;
+    width: 100%
+}
+
+.survey ul {
+    padding: 10px 10px;
+}
+
+.survey ul li {
+    float: left;
+    width: 33.333%;
+    margin: 10px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.survey ul li span i {
+    background: #ef7d03;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    font-size: 24px;
+    border: 3px solid rgba(71, 89, 103, 0.8);
+}
+
+.survey ul li span i.bg01 {
+    background: #03ef46;
+}
+
+.survey ul li span i.bg02 {
+    background: #9903ef;
+}
+
+.survey ul li span i.bg03 {
+    background: #ef03cb;
+}
+
+.survey ul li span i.bg04 {
+    background: #03d0ef;
+}
+
+.survey ul li span i.bg05 {
+    background: #038def;
+}
+
+.survey ul li .text {
+    font-size: 12px;
+    padding: 10px 0px 0px 5px;
+    display: inline-block
+}
+
+.survey .text em {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.speed-progress,
+.early-warning,
+.approval,
+.declare {
+    width: calc(100% * 0.48);
+    height: 268px;
+}
+
+.speed-progress-chart,
+.early-warning-chart {
+    padding: 15px;
+}
+
+.index-center {
+    width: calc(100% * 0.37);
+}
+
+.design-sketch {
+    height: 803px;
+}
+
+.design-sketch-hd {
+    padding: 20px;
+}
+
+.design-sketch-hd a {
+    display: inline-block;
+    width: 100%;
+}
+
+.design-sketch-hd .nLi {
+    float: left;
+    width: 24%;
+    position: relative;
+    margin-right: 1.333%;
+}
+
+.design-sketch-hd li h3 {
+    text-align: center;
+    border: 1px solid #135276;
+    height: 39px;
+    line-height: 39px;
+}
+
+.design-sketch-hd .nLi:last-child {
+    margin-right: 0px;
+}
+
+.design-sketch-hd .sub {
+    position: absolute;
+    top: 39px;
+    z-index: 99;
+    font-size: 14px;
+    background: rgba(0, 87, 238, 0.8);
+    width: 100%;
+    display: none;
+}
+
+.design-sketch-hd .sub li {
+    padding: 15px 5px;
+}
+
+.design-sketch-hd .hover h3,
+.design-sketch-hd li:hover h3 {
+    background: #0a3568;
+}
+
+.design-sketch-hd li:hover .sub {
+    display: block;
+}
+
+.design-sketch-con {
+    position: relative;
+    height: 710px;
+    overflow: hidden;
+}
+
+.design-sketch-con area {
+    background: #000;
+}
+
+.whole {
+    position: relative;
+}
+
+.whole .box01 {
+    position: absolute;
+    z-index: 100;
+    left: calc((100% - 550px) / 2);
+    top: calc((100% - 500px) / 2);
+    display: none;
+}
+
+.whole .fpxz {
+    left: calc((100% - 400px) / 2);
+    top: calc((100% - 300px) / 2);
+}
+
+.whole .map01 .box01 {
+    left: calc((100% - 450px) / 2);
+    top: calc((100% - 310px) / 2);
+}
+
+.whole .map01 .fpxz {
+    left: calc((100% - 350px) / 2);
+    top: calc((100% - 210px) / 2);
+}
+
+.whole .con {
+    width: 394px;
+    height: 135px;
+    background: rgba(1, 24, 66, 0.86);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.whole .con img {
+    width: 159px;
+    height: 129px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+
+.whole .con p em,
+.design-sketch-con .con p span {
+    display: block;
+}
+
+.whole .con p em {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.whole .con p span {
+    text-indent: 2em;
+    margin-top: 15px;
+    line-height: 24px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    height: 74px;
+    overflow: hidden;
+}
+
+.whole .con p a {
+    margin-top: 5px;
+    vertical-align: middle;
+    float: right;
+    display: inline-block;
+}
+
+.whole .con p a i {
+    font-size: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.design-sketch-con .arrow {
+    width: 0;
+    height: 0;
+    border-width: 20px 20px 0px;
+    border-style: solid;
+    border-color: rgba(1, 24, 66, 0.86) transparent transparent;
+    /*͸�� ͸��  ��*/
+    position: absolute;
+    bottom: -20px;
+    left: 48%;
+}
+
+.whole-hd {
+    position: absolute;
+    z-index: 99;
+    bottom: 5px;
+    right: 0px;
+}
+
+.whole-hd a {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+    margin-left: 20px;
+}
+
+.whole-hd a i {
+    font-size: 24px;
+}
+
+.index-right {
+    width: calc(100% * 0.3);
+}
+
+.key-projects {
+    height: 227px;
+}
+
+.key-projects-con {
+    margin: 15px;
+    height: 136px;
+    position: relative;
+}
+
+.key-projects-con .hd .left,
+.key-projects-con .hd .right {
+    top: 35%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 5px;
+}
+
+.key-projects-con .hd .left {
+    left: 0px;
+}
+
+.key-projects-con .hd .right {
+    right: 0px;
+}
+
+.key-projects-con .bd ul li img {
+    height: 136px;
+    margin-right: 10px;
+}
+
+.key-projects-con .bd ul li p {
+    /* height: 7.2em; */
+    overflow : hidden;
+	display: -webkit-box;    /*弹性伸缩盒子*/
+	-webkit-box-orient: vertical; /*子元素垂直排列*/
+	-webkit-line-clamp: 5;   /*可以显示的行数，超出部分用...表示*/
+	text-overflow: ellipsis; /*（多行文本的情况下，用省略号“…”隐藏溢出范围的文本)*/
+}
+
+.key-projects-con .bd ul li span {
+    text-indent: 2em;
+    overflow: hidden;
+    line-height: 1.7em;
+}
+
+.key-projects-con .bd ul li a {
+    margin-top: 5px;
+    vertical-align: middle;
+    text-align: right;
+    float: right;
+    display: inline-block;
+}
+
+.key-projects-con .bd ul li i {
+    font-size: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.key-progress,
+.top5 {
+    height: 268px;
+}
+
+.key-progress .ov {
+    height: 126px;
+}
+
+.key-progress .table01 tr th,
+.key-progress .table01 tr td {
+    border: 0px;
+}
+
+.key-progress-con .ov {
+    overflow: hidden;
+}
+
+.key-progress-con .bd li {
+    padding: 18px 0px;
+    box-sizing: initial;
+}
+
+.key-progress-con .bd li span {
+    display: inline-block;
+    padding: 0px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: initial;
+}
+
+.key-progress-con .bd li span.bg {
+    height: 20px;
+    background: #000;
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.key-progress-con .bd li span i {
+    display: inline-block;
+    height: 20px;
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: initial;
+}
+
+.key-progress-con .bd li span i.bg01 {
+    background: linear-gradient(#4ef5e8, #12bff1);
+    background-color: #12bff1\9\0;
+}
+
+.key-progress-con .bd li span i.bg02 {
+    background: linear-gradient(#9777ff, #5659f5);
+    background-color: #5659f5\9\0;
+}
+
+.investment-financing-con {
+    margin: 15px;
+    height: 180px;
+    position: relative;
+}
+
+.investment-financing-con .hd .left,
+.investment-financing-con .hd .right {
+    top: 40%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 5px;
+}
+
+.investment-financing-con .hd .left {
+    left: 0px;
+}
+
+.investment-financing-con .hd .right {
+    right: 0px;
+}
+
+.investment-financing-con .bd h1 {
+    font-size: 24px;
+    margin: 10px 0px 15px;
+}
+
+.investment-financing-con .bd h1 span {
+    float: right;
+    font-size: 16px;
+}
+
+.investment-financing-con .bd h1 span i {
+    margin-right: 5px;
+}
+
+.investment-financing-con .bd p {
+    line-height: 2em;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.investment-financing-con .bd ul li a {
+    margin-top: 5px;
+    vertical-align: middle;
+    text-align: right;
+    float: right;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.investment-financing-con .bd ul li i {
+    font-size: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.investment-financing-con .bd .fleft {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.investment-financing-con .bd .column span {
+    display: block;
+    margin: 15px 0px;
+}
+
+.investment-financing-con .bd .column span i {
+    margin-right: 10px;
+    background: #ef7d03;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.investment-financing-con .bd .column span i.bg01 {
+    background: #03ef46;
+}
+
+.investment-financing-con .bd .column span i.bg02 {
+    background: #9903ef;
+}
+
+.investment-financing-con .bd .column span i.bg03 {
+    background: #ef03cb;
+}
+
+.investment-financing-con .bd .column span i.bg04 {
+    background: #03d0ef;
+}
+
+.investment-financing-con .bd .column span i.bg05 {
+    background: #038def;
+}
+
+.key-progress-window .window_main {
+    width: 1395px;
+    margin-top: calc((100vh - 746px)/2);
+}
+
+.key-progress-window .window_main .ov {
+    height: 648px;
+}
+
+.key-progress-window-left {
+    width: 655px;
+    height: 618px;
+    overflow: auto;
+    line-height: 2em;
+}
+
+.key-progress-window-right {
+    width: 645px;
+    position: relative;
+}
+
+.key-progress-window-right .title01 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+}
+
+.key-progress-window-right .con {
+    height: 648px;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+}
+
+.key-progress-window-right .con img {
+    width: 460px;
+}
+
+.annual-gross-domestic-product-window .window_main,
+.annual-gross-domestic-product-window1 .window_main,
+.total-output-value-window .window_main,
+.project-statistics-window .window_main,
+.top5-window .window_main {
+    width: 900px;
+    margin-top: calc((100vh - 720px)/2);
+}
+
+.annual-gross-domestic-product-window .window_main .ov,
+.annual-gross-domestic-product-window1 .window_main .ov,
+.total-output-value-window .window_main .ov,
+.project-statistics-window .window_main .ov,
+.top5-window .window_main .ov {
+    height: 610px;
+}
+
+.tzwcdfxyd-window .window_main,
+.tzwcdfxjd-window .window_main,
+.tzwcdfxnd-window .window_main,
+.cz-window .window_main,
+.jdxmtj-window .window_main,
+.tzgm-window .window_main,
+.yqcylbzb-window .window_main {
+    width: 900px;
+    margin-top: calc((100vh - 720px)/2);
+}
+
+.tzwcdfxyd-window .window_main .ov,
+.tzwcdfxjd-window .window_main .ov,
+.tzwcdfxnd-window .window_main .ov,
+.cz-window .window_main .ov,
+.jdxmtj-window .window_main .ov,
+.tzgm-window .window_main .ov,
+.yqcylbzb-window .window_main .ov {
+    height: 610px;
+}
+
+
+/**�����ղ�����Ŀ����**/
+
+.investment-financing-project-details .window_main {
+    width: 1295px;
+    margin-top: calc((100vh - 846px)/2);
+}
+
+.investment-financing-project-details .window_main .ov {
+    height: 748px;
+}
+
+.investment-financing-project-details-left {
+    width: calc(100% - 380px);
+}
+
+.investment-financing-project-details-right {
+    width: 360px;
+}
+
+.investment-financing-project-details-right .interview {
+    background: url(/xmzhgl_xzb/images/interview-bg.png) no-repeat;
+    height: 174px;
+    color: #001f55;
+    padding: 60px 30px 0px;
+    width: 300px;
+}
+
+.investment-financing-project-details-right .interview h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.investment-financing-project-details-right .interview p {
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+.investment-financing-project-details-right .interview p button {
+    border: 0px;
+    border-radius: 3px;
+    width: 126px;
+    height: 45px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.essential-information {
+    min-height: 194px;
+}
+
+.essential-information h1 {
+    font-size: 24px;
+    color: #08b8f8;
+}
+
+.essential-information p span em,
+.essential-information p span a {
+    margin-right: 20px;
+}
+
+.essential-information p span a i {
+    margin-right: 5px;
+}
+
+.essential-information .column {
+    margin-top: 30px;
+}
+
+.essential-information .column span {
+    display: inline-block;
+    width: 50%;
+    margin: 10px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.essential-information .column span i {
+    margin-right: 10px;
+    background: #ef7d03;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.essential-information .column span i.bg01 {
+    background: #03ef46;
+}
+
+.essential-information .column span i.bg02 {
+    background: #9903ef;
+}
+
+.essential-information .column span i.bg03 {
+    background: #ef03cb;
+}
+
+.essential-information .column span i.bg04 {
+    background: #03d0ef;
+}
+
+.essential-information .column span i.bg05 {
+    background: #038def;
+}
