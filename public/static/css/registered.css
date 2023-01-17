@@ -1,58 +1,74 @@
-*{margin: 0;padding: 0;list-style: none;color: #333333;text-decoration: none;outline: none;}
-html,body {height: 100%;}
-i{color: #333;font-size: 1.4vw !important;}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #333333;
+    text-decoration: none;
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+i {
+    color: #333;
+    font-size: 1.4vw !important;
+}
 
 .registered-bd {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	background:url(/xmzhgl_xzb/images/zmgld_bg.png) no-repeat ;
-	background-size: cover;
+    position: relative;
+    width: 1903px;
+    height: 929px;
+    background: url(../images/zmgld_bg.png) no-repeat;
+    background-size: cover;
 }
 
-.logo{
-	position: absolute;
-	left: 5%;
-	top: 5%;
-	transform: translate(-5%,-5%);
+.logo {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    transform: translate(-5%, -5%);
 }
 
-.logo img{
-	width: 12vw;
+.logo img {
+    width: 12vw;
 }
 
 .registered-bd .bd-inner {
-	width: 25%;
+    width: 25%;
     height: 31vw;
     background: #E6E6E6;
     position: fixed;
     top: 36%;
     left: 80%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .registered-bd .bd-inner .inner-wrap {
-	width: 97%;
-	height: 97%;
-	margin: 1.7% auto 0 auto;
-	background: #fff;
-	display: flex;
-	justify-content: center;
+    width: 97%;
+    height: 97%;
+    margin: 1.7% auto 0 auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
 }
 
-.registered-bd .inner-wrap .wrap-lg{
-	width: 100%;
-	height: 100%;
-	transition: 0.2s;
+.registered-bd .inner-wrap .wrap-lg {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
 }
 
-.registered-bd .inner-wrap .wrap-lg .yhzc{
-	margin: 6% 0 0 6%;
-	text-align: left;
-	font-size: 1.6vw;
+.registered-bd .inner-wrap .wrap-lg .yhzc {
+    margin: 6% 0 0 6%;
+    text-align: left;
+    font-size: 1.6vw;
 }
-.registered-bd .inner-wrap .wrap-lg .yhzc:before{
-	position: absolute;
+
+.registered-bd .inner-wrap .wrap-lg .yhzc:before {
+    position: absolute;
     left: 1.5%;
     top: 5%;
     content: "";
@@ -60,76 +76,93 @@ i{color: #333;font-size: 1.4vw !important;}
     height: 3vw;
     background-color: #526377;
 }
+
+
 /* 返回登录 */
-.login_back{
-	position: absolute;
-	top: 8%;
-	right: 7%;
-	font-size: 1vw;
+
+.login_back {
+    position: absolute;
+    top: 8%;
+    right: 7%;
+    font-size: 1vw;
 }
+
+
 /* 行政版表单开始 */
-.registered_item{
-	margin: 5% 0;
+
+.registered_item {
+    margin: 5% 0;
 }
-#registered_form{
-	text-align: center;
+
+#registered_form {
+    text-align: center;
 }
-#registered_form>div{
-	position: relative;
-	margin: 2.8% auto;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
+#registered_form>div {
+    position: relative;
+    margin: 2.8% auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#registered_form>div>i{
-	position: absolute;
-	top: 19%;
-	left: 20%;
+
+#registered_form>div>i {
+    position: absolute;
+    top: 19%;
+    left: 20%;
 }
-#registered_form .verification_code button{
-	position: absolute;
-	right: 17%;
-	width: 13%;
-	height: 100%;
-	background-color: #fff;
-	border: #7d7d7d solid 0.1vw;
-	border-radius: 0 0.3vw 0.3vw 0;
-	font-size: 0.7vw;
+
+#registered_form .verification_code button {
+    position: absolute;
+    right: 17%;
+    width: 13%;
+    height: 100%;
+    background-color: #fff;
+    border: #7d7d7d solid 0.1vw;
+    border-radius: 0 0.3vw 0.3vw 0;
+    font-size: 0.7vw;
 }
-#registered_form>div>input{
-	padding: 0 15%;
-	width: 35%;
-	height: 2.2vw;
-	border: 0.1vw solid #7d7d7d;
-	border-radius: 0.2vw;
-	font-size: 0.8vw;
+
+#registered_form>div>input {
+    padding: 0 15%;
+    width: 35%;
+    height: 2.2vw;
+    border: 0.1vw solid #7d7d7d;
+    border-radius: 0.2vw;
+    font-size: 0.8vw;
 }
-#registered_form>div>input:focus:invalid{
-	background: url(/xmzhgl_xzb/images/warn.png) no-repeat 96% center;
-	background-size: 5%;
-	border-color: #b03535;
+
+#registered_form>div>input:focus:invalid {
+    background: url(../images/warn.png) no-repeat 96% center;
+    background-size: 5%;
+    border-color: #b03535;
 }
-#registered_form>div>input:required:valid{
-	background: url(/xmzhgl_xzb/images/right.png) no-repeat 96% center;
-	background-size: 5%;
-	border-color: #28921f;
+
+#registered_form>div>input:required:valid {
+    background: url(../images/right.png) no-repeat 96% center;
+    background-size: 5%;
+    border-color: #28921f;
 }
+
+
 /* 按钮 */
+
 .item {
-	text-align: center;
+    text-align: center;
 }
-.registered_button{
-	margin: 5% auto;
-	width: 65%;
-	height: 1.8vw;
-	line-height: 1.8vw;
-	background-color: #F63F3F !important;
-	border-radius: 0.2vw;
-	box-shadow:  0vw 0vw 0.1vw #000;
-	border: none;
-	display: list-item;
-	color: #fff;
-	font-size: 0.8vw;
+
+.registered_button {
+    margin: 5% auto;
+    width: 65%;
+    height: 1.8vw;
+    line-height: 1.8vw;
+    background-color: #F63F3F !important;
+    border-radius: 0.2vw;
+    box-shadow: 0vw 0vw 0.1vw #000;
+    border: none;
+    display: list-item;
+    color: #fff;
+    font-size: 0.8vw;
 }

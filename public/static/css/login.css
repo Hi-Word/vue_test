@@ -19,7 +19,7 @@ i {
 
 .login-bd {
     position: relative;
-    width: 1364px;
+    width: 1903px;
     height: 929px;
     background: url("../images/zmgld_bg.png") no-repeat;
     background-size: cover;
@@ -86,6 +86,7 @@ i {
 
 #longin_form {
     text-align: center;
+    background-color: #fff;
 }
 
 #longin_form .name,

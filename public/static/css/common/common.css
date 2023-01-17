@@ -83,7 +83,7 @@ body {
     line-height: 1;
     font-family: "FZYouHK_512B", "微软雅黑", "宋体";
     font-size: 16px;
-    background: url(/xmzhgl_xzb/images/bg.jpg) top center fixed;
+    background: url(../../images/bg.jpg) top center fixed;
     background-size: cover;
     color: #fff;
     height: 100%;
@@ -269,7 +269,7 @@ em {
 /**登录页**/
 
 .login {
-    background: url(/xmzhgl_xzb/images/login-bg.png) no-repeat;
+    background: url(../../images/login_bg.png) no-repeat;
 }
 
 .login-logo {
@@ -419,9 +419,9 @@ em {
 }
 
 .logo {
-    background: url(/xmzhgl_xzb/images/logo-bg.png) no-repeat;
+    background: url(../../images/logo-bg.png) no-repeat;
     width: 462px;
-    height:75px;
+    height: 75px;
     text-align: center;
     padding-top: 10px;
     margin: 0px auto;
@@ -621,7 +621,7 @@ a.enlarge i {
 
 .title span {
     display: inline-block;
-    background: url(/xmzhgl_xzb/images/title-arrow.png) no-repeat top right;
+    background: url(../../images/title-arrow.png) no-repeat top right;
     padding-right: 45px;
 }
 
@@ -775,7 +775,7 @@ a.enlarge i {
 }
 
 .close {
-    background: url(/xmzhgl_xzb/images/close_bt.png) 0px 25px;
+    background: url(../../images/nan1.gif) 0px 25px;
     width: 21px;
     height: 21px;
     display: inline-block;
@@ -874,58 +874,170 @@ a.enlarge i {
     text-indent: 2em;
 }
 
-@media screen and (max-height: 905px){
-	.project-overview ul{min-height:565px;}
-	.project-overview ul li a{padding:15px;}
-	.project-overview ul li a h1{margin-top:10px;}
-	.project-overview ul li a img{height:calc(100vh * 0.172);}
-	.engineering-profile .ov{height:230px;}
-	.management-wen .ov{height:190px}
-	.management-wen{height:255px}
-	.project-details-left{height:650px;}
-	.project-details-menu h3{font-size:18px;}
-	.project-details-menu ul li{font-size:16px;}
-	.project-introduction .con{height:159px;}
-	.scene-pictures{height:283px;}
-	.scene-pictures-con .slides img{height:189px;}
-	.contrast-of-investment .con .bd > div{height:262px;}
-	.contrast-of-investment,.output-value,.category-comparison,.stage-statistics,.investment-scale{height:335px;}
-	.overall-progress{height:320px;}
-	.project-progress .key-progress{height:350px;}	
-	.normal-project{height:691px;}
-	.normal-project .ov{height:467px;}
-	.be-overdue .ov{height:285px;}
-	.high-early-warning .ov, .low-early-warning .ov{height:50px;}
-	.enclosure-list{width:38%;}
-	.investment-financing-left{height:271px;}
-	.investment-financing-left-bd{height:191px;}
-	.investment-financing-right{height:301px;}
-	.investment-financing-project-details .window_main{margin-top: 0 !important}
-	.policy-document-left{height:619px;}
-	.policy-document-right .ov{height:475px;}
-	.investment-financing-right ul li img{height:90px;}
-	.investment-financing-right ul{height:260px;}
-	.picture-display .bd ul li img{height:113px;}
-	.video,.picture-set{height:520px;}
-	.video ul{height:420px;}
-	.picture-set-con,.picture-set-con .bd img{height:428px;}
-	.survey{height:235px;}
-	.survey ul li{margin:5px 0px;}
-	.speed-progress,.early-warning,.approval,.declare{height:195px;}
-	.design-sketch{height:635px;}
-	.design-sketch-con{height:540px;}
-	.key-progress, .top5{height:215px;}
-	.key-progress-con .table01 tr th,.key-progress-con .table01 tr td{padding:0px 10px;}
-	.key-progress-con .bd li{padding:10px 0px;}
-	.key-projects{height:220px;}
-	.key-projects-con{height:100px;}
-	/* .key-projects-con .bd ul li img{height:100px;} */
-	/* .key-projects-con .bd ul li p{height:6.5em;} */
-	.investment-financing-con .bd h1{font-size:20px;margin:0px 0px 10px;}
-	.investment-financing-con .bd p{line-height:1.2em;}
-	.investment-financing-con .bd .column span i{height:15px;width:15px;}
-	.investment-financing-con .bd .column span{margin:5px 0px;}
-	.investment-financing-con{height:111px;}
+@media screen and (max-height: 905px) {
+    .project-overview ul {
+        min-height: 565px;
+    }
+    .project-overview ul li a {
+        padding: 15px;
+    }
+    .project-overview ul li a h1 {
+        margin-top: 10px;
+    }
+    .project-overview ul li a img {
+        height: calc(100vh * 0.172);
+    }
+    .engineering-profile .ov {
+        height: 230px;
+    }
+    .management-wen .ov {
+        height: 190px
+    }
+    .management-wen {
+        height: 255px
+    }
+    .project-details-left {
+        height: 650px;
+    }
+    .project-details-menu h3 {
+        font-size: 18px;
+    }
+    .project-details-menu ul li {
+        font-size: 16px;
+    }
+    .project-introduction .con {
+        height: 159px;
+    }
+    .scene-pictures {
+        height: 283px;
+    }
+    .scene-pictures-con .slides img {
+        height: 189px;
+    }
+    .contrast-of-investment .con .bd>div {
+        height: 262px;
+    }
+    .contrast-of-investment,
+    .output-value,
+    .category-comparison,
+    .stage-statistics,
+    .investment-scale {
+        height: 335px;
+    }
+    .overall-progress {
+        height: 320px;
+    }
+    .project-progress .key-progress {
+        height: 350px;
+    }
+    .normal-project {
+        height: 691px;
+    }
+    .normal-project .ov {
+        height: 467px;
+    }
+    .be-overdue .ov {
+        height: 285px;
+    }
+    .high-early-warning .ov,
+    .low-early-warning .ov {
+        height: 50px;
+    }
+    .enclosure-list {
+        width: 38%;
+    }
+    .investment-financing-left {
+        height: 271px;
+    }
+    .investment-financing-left-bd {
+        height: 191px;
+    }
+    .investment-financing-right {
+        height: 301px;
+    }
+    .investment-financing-project-details .window_main {
+        margin-top: 0 !important
+    }
+    .policy-document-left {
+        height: 619px;
+    }
+    .policy-document-right .ov {
+        height: 475px;
+    }
+    .investment-financing-right ul li img {
+        height: 90px;
+    }
+    .investment-financing-right ul {
+        height: 260px;
+    }
+    .picture-display .bd ul li img {
+        height: 113px;
+    }
+    .video,
+    .picture-set {
+        height: 520px;
+    }
+    .video ul {
+        height: 420px;
+    }
+    .picture-set-con,
+    .picture-set-con .bd img {
+        height: 428px;
+    }
+    .survey {
+        height: 235px;
+    }
+    .survey ul li {
+        margin: 5px 0px;
+    }
+    .speed-progress,
+    .early-warning,
+    .approval,
+    .declare {
+        height: 195px;
+    }
+    .design-sketch {
+        height: 635px;
+    }
+    .design-sketch-con {
+        height: 540px;
+    }
+    .key-progress,
+    .top5 {
+        height: 215px;
+    }
+    .key-progress-con .table01 tr th,
+    .key-progress-con .table01 tr td {
+        padding: 0px 10px;
+    }
+    .key-progress-con .bd li {
+        padding: 10px 0px;
+    }
+    .key-projects {
+        height: 220px;
+    }
+    .key-projects-con {
+        height: 100px;
+    }
+    /* .key-projects-con .bd ul li img{height:100px;} */
+    /* .key-projects-con .bd ul li p{height:6.5em;} */
+    .investment-financing-con .bd h1 {
+        font-size: 20px;
+        margin: 0px 0px 10px;
+    }
+    .investment-financing-con .bd p {
+        line-height: 1.2em;
+    }
+    .investment-financing-con .bd .column span i {
+        height: 15px;
+        width: 15px;
+    }
+    .investment-financing-con .bd .column span {
+        margin: 5px 0px;
+    }
+    .investment-financing-con {
+        height: 111px;
+    }
 }
 
 
